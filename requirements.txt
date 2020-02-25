@@ -7,7 +7,7 @@ bz2file==0.98
 certifi==2017.7.27.1
 cffi==1.11.2
 chardet==3.0.4
-cryptography==2.1.1
+cryptography==2.3
 enum34==1.1.6
 funcsigs==1.0.2
 gensim==3.0.1
