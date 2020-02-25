@@ -1,0 +1,48 @@
+Observation,Bug14436
+condition,<EllipsoidPointWithUncertaintyCircle>
+result,<find me>
+lastContext,<UncertaintyCode>
+nextContext,<LatitudeDegree>
+log,spu
+
+Observation,BugTest1
+condition,<EllipsoidPointWithUncertaintyCircle>
+result,<LatitudeDegree>
+lastContext,<UncertaintyCode>
+nextContext,<LongitudeDegree>
+log,spu
+
+Observation,BugTest2
+condition,<EllipsoidPointWithUncertaintyCircle>
+result,<LatitudeDegree>
+lastContext,<UncertaintyCode>
+nextContext,none
+log,spu
+
+Observation,BugTest3
+condition,<EllipsoidPointWithUncertaintyCircle>
+result,<LatitudeDegree>
+lastContext,none
+nextContext,<LongitudeDegree>
+log,spu
+
+Observation,BugTest4
+condition,<EllipsoidPointWithUncertaintyCircle>
+result,<find me>
+lastContext,<UncertaintyCode>
+nextContext,<LongitudeDegree>
+log,spu
+
+Observation,BugTest5
+condition,<EllipsoidPointWithUncertaintyCircle>
+result,<find me>
+lastContext,none
+nextContext,<LongitudeDegree>
+log,spu
+
+Observation,BugTest6
+condition,<EllipsoidPointWithUncertaintyCircle>
+result,<find me>
+lastContext,<UncertaintyCode>
+nextContext,none
+log,spu

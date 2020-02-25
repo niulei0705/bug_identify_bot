@@ -1,0 +1,14 @@
+Observation,Bug14531
+condition,wis queried: 1,wis queried: 0
+result,is_wis_already_queried: 0,is_wis_already_queried: 1
+log,glc_nm
+
+Observation,Bug14593
+condition,shared results: 0
+result,share_concurrent_result
+log,spu
+
+Observation,Bug14288
+condition,plrr_err_to_contrl_plane_response resultCode=4221
+result,<result resid="6">
+log,glc_nm
