@@ -1,0 +1,20 @@
+{
+    "product" : "location",
+    "logtype" : "daily_ta",
+    "server" : "10.68.101.40",
+    "port" : "22",
+    "username" : "root",
+    "password" : "nls72NSN",
+    "src_dir" : "/tmp/logs/NLS180",
+    "dst_dir" : "/var/data/bnb_bot/logs",
+    "protocol" : "scp",
+    "path_prefix" : "M_Vz-",
+    "case_report_prefix" : "test_M_Vz_",
+    "process_list" : "glc,lppserver,sls_server,spu,tlr,libLPP.so",
+    "process_names" : "glc:glc_nm;glc_log,lppserver:lppserver_LPP;lpserver_ALGO,sls_server:sls_server,spu:spu;RRLP;UEDriver,tlr:tr,libLPP.so:LPP",
+    "read_logs" : {
+	"log_type" : "failure",
+	"log_url" : "/mnt/bnb_bot_shared/com/nokia/mals/taf/tests/3_NLS170E911TestsServer4-errors.html"
+    }
+}
+
